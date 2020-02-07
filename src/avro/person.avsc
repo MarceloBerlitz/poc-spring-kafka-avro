@@ -1,0 +1,12 @@
+{
+  "namespace": "dev.berlitz.avro",
+  "type": "record",
+  "name": "Person",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string",
+      "avro.java.string": "String"
+    }
+  ]
+}
